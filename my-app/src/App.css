@@ -8,4 +8,9 @@
 .App {
   color: #303030;
   font-family: 'Figtree';
+  height: 100vh;
+}
+
+.bg-purple {
+  background-color: #767AF9;
 }
