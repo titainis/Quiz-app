@@ -6,7 +6,7 @@ import CheckoutPage from './Pages/CheckoutPage/CheckoutPage';
 
 function App() {
   return (
-    <div className="App w-[335px] mx-auto">
+    <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizPage />} />
