@@ -17,6 +17,7 @@ const QuizPage = () => {
     const colorMap: Record<Answer, {bg: string, border: string, text: string}> = {
         Yes: {
           bg: "bg-green-500",
+          
           border: "border-green-500",
           text: "text-white"
         },
@@ -44,7 +45,9 @@ const QuizPage = () => {
             </div>
 
             <div className="w-full h-[2px] bg-gray-300 rounded-sm mt-2">
-                <div className="h-full bg-[#767AF9] rounded-sm">
+                <div className="h-full bg-[#767AF9] rounded-sm"
+                    style={{width: `${((currentQuestion + 1) / questions.length) * 100}%`}}
+                    >
                 </div>
             </div>
 

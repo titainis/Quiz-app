@@ -10,8 +10,8 @@ import Relax from '../Assets/icons/Group.svg'
 import Emotional from '../Assets/icons/mood_17989552 3.svg';
 import Habit from '../Assets/icons/checklist_4301650 3.svg';
 import Boost from '../Assets/icons/business_9852276 3.svg';
-import WhiteYes from '../Assets/icons/yes.svg';
-import WhiteNo from '../Assets/icons/no.svg';
+import WhiteYes from '../Assets/icons/Yes.svg';
+import WhiteNo from '../Assets/icons/No.svg';
 import WhiteUnsure from '../Assets/icons/unsure.svg';
 import WhiteControl from '../Assets/icons/white-cogwheel_1527330 2.svg'
 import WhiteHealth from '../Assets/icons/white-Frame 1321318623.svg';
